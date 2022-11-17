@@ -1,0 +1,20 @@
+.about{
+  /* border: 1px solid black;
+  background-color: lightcoral;
+  height: 500px;
+  width: 100%; */
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.about .big_text{
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: gray;
+}
+.about .med_text{
+  font-size: 16px;
+  color: gray;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}

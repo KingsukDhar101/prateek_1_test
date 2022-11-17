@@ -1,0 +1,72 @@
+.contact{
+  padding: 20px 20px 5px 20px;
+  height: max-content;
+  background-color: #000;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.contact_wrapper_part{
+  width: 200px;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact_copyright{
+  text-align: center;
+  font-size: 13px;
+
+}
+.contact_copyright > span{
+  font-size: 13px;
+}
+.big_text{
+  font-size: 15px;
+}
+.small_text{
+  font-size: 12px;
+}
+
+.google_play_button{
+  /* height: 20px; */
+  width: 70%;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 10px;
+  background-color: white;
+  color: #000;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.google_play_button img{
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+  /* margin-right: 10px; */
+}
+
+@media screen and (max-width: 425px) {
+  .contact_wrapper_part{
+    width: 120px;
+  }
+  .contact .big_text{
+    font-size: 14px;
+  }
+  .contact .small_text{
+    font-size: 12px;
+  }
+  .getItOnGoogle{
+    margin-right: 3px;
+  }
+}
